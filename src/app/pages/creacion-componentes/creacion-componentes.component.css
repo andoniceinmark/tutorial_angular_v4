@@ -1,0 +1,17 @@
+.creacion-section {
+  background: #ff76ad0f; /* rosa claro translúcido */
+  padding: 1.5rem;
+  margin: 1rem;
+  border-left: 5px solid #ff76ad;
+}
+
+.creacion-section h2 {
+  color: #ff76ad;
+}
+
+.creacion-section pre {
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ffcbe2;
+}

@@ -1,0 +1,20 @@
+<section class="formularios-section">
+  <h2>Formularios en Angular</h2>
+  <p>
+    Puedes crear <strong>formularios reactivos</strong> o 
+    <strong>formularios basados en plantillas</strong>.
+  </p>
+  <pre><code>
+// Ejemplo de formulario reactivo
+import &#123; FormControl, FormGroup &#125; from '&#64;angular/forms';
+
+miFormulario = new FormGroup(&#123;
+  nombre: new FormControl(''),
+  email: new FormControl('')
+&#125;);
+  </code></pre>
+  <p>
+    Importa <code>ReactiveFormsModule</code> o <code>FormsModule</code> 
+    para manejar tu formulario adecuadamente.
+  </p>
+</section>

@@ -1,0 +1,19 @@
+.formularios-section {
+  background: #e3f2fd; /* azul claro */
+  border: 2px solid #2196f3;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.formularios-section h2 {
+  color: #1e88e5;
+  margin-bottom: 1rem;
+}
+
+.formularios-section pre {
+  background: #fff;
+  padding: 0.5rem;
+  border-left: 4px solid #1e88e5;
+  border-radius: 6px;
+}

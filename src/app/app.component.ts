@@ -1,12 +1,15 @@
+// app.component.ts
 import { Component } from '@angular/core';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [NavbarComponent, RouterOutlet] // <-- IMPORTAMOS AQUI
 })
 export class AppComponent {
-  title = 'tutorial_angular_v4';
+  // ...
 }

@@ -1,0 +1,21 @@
+.estructura-section {
+  margin: 1rem;
+  padding: 1.5rem;
+  background: #fefefe;
+  border: 2px solid #ffa82e;
+  border-radius: 10px;
+}
+
+.estructura-section h2 {
+  color: #ffa82e;
+  margin-bottom: 1rem;
+}
+
+.estructura-section ul {
+  list-style-type: square;
+  margin-left: 2rem;
+}
+
+.estructura-section li {
+  margin: 0.5rem 0;
+}

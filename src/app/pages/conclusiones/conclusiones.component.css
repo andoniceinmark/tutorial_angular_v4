@@ -1,0 +1,23 @@
+.conclusiones-section {
+  background: #f1f8e9; /* verde claro */
+  padding: 2rem;
+  border: 2px solid #9ccc65;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.conclusiones-section h2 {
+  color: #7cb342;
+  margin-bottom: 1rem;
+}
+
+.conclusiones-section ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.conclusiones-section footer {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #558b2f;
+}

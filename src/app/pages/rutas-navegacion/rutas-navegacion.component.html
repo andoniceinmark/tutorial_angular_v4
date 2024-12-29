@@ -1,0 +1,19 @@
+<section class="rutas-section">
+  <h2>Rutas y Navegación en Angular</h2>
+  <p>
+    Angular utiliza el <strong>Router</strong> para navegar entre componentes. 
+    Define las rutas en un array de <em>Routes</em> y usa 
+    <code>RouterModule.forRoot(routes)</code>.
+  </p>
+  <pre><code>const routes: Routes = [
+  &#123; path: '', component: HomeComponent &#125;,
+  &#123; path: 'instalacion', component: InstalacionComponent &#125;,
+  &#123; path: 'estructura-proyecto', component: EstructuraProyectoComponent &#125;,
+  ...
+];
+</code></pre>
+  <p>
+    Agrega directivas como <code>[routerLink]</code> en tu HTML para crear enlaces 
+    entre rutas.
+  </p>
+</section>

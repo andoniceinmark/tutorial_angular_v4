@@ -1,0 +1,10 @@
+.pipes-section {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #fff8e1; /* amarillo claro */
+  border: 2px dotted #fbc02d;
+}
+
+.pipes-section h2 {
+  color: #f9a825;
+}
